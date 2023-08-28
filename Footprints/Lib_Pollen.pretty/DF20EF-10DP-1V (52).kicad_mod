@@ -37,8 +37,8 @@
   (pad "8" smd rect (at 3 5.6) (size 0.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 53f8c3a7-6cc2-4799-b8e6-6e4e3685ad28))
   (pad "9" smd rect (at 4 0) (size 0.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42682dd9-c025-472c-8440-e2628084eb8b))
   (pad "10" smd rect (at 4 5.6) (size 0.6 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp dae2ddb3-73f3-4a50-802a-5979cbac791f))
-  (pad "MP" smd rect (at -0.9 2.3) (size 0.85 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2794cd25-ac00-421e-a3ce-84a2403f1ace))
-  (pad "MP" smd rect (at 4.9 2.3) (size 0.85 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ca34511-ef20-43e7-9895-86a24bdf7bf8))
+  (pad "MP" smd rect (at -1.325 2.4) (size 0.9 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2794cd25-ac00-421e-a3ce-84a2403f1ace))
+  (pad "MP" smd rect (at 5.325 2.4) (size 0.9 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ca34511-ef20-43e7-9895-86a24bdf7bf8))
   (model "${KICAD_USER_3DMOD}/DF20F-10DP-1V.stp"
     (offset (xyz 2 -3 0))
     (scale (xyz 1 1 1))
