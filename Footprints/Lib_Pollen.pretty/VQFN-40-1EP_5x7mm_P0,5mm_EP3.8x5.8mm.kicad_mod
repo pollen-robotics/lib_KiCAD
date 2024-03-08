@@ -99,4 +99,9 @@
   (pad "39" smd rect (at -1.25 -3.503033) (size 0.242473 0.906066) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b01143c6-0487-4f68-9d26-70069dc25bd3))
   (pad "40" smd rect (at -1.749999 -3.503033) (size 0.242473 0.906066) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 314a8162-5d0b-4317-baa8-d234da493057))
   (pad "41" smd rect (at 0 0) (size 3.8 5.800001) (layers "F.Cu" "F.Mask") (tstamp 6132619d-703c-4052-b3a9-3ec5279d78f3))
+  (model "${KICAD_USER_3DMOD}/VQFN-40_5x7mm.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
