@@ -611,4 +611,9 @@
   (pad "36" smd rect (at -2.000001 -3.4266) (size 0.254 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4ff4f170-b2b5-4d62-93e5-4e5fb747583c))
   (pad "37" smd rect (at -2.5 -3.4266) (size 0.254 0.762) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 07cdc29c-f2ec-4ea1-b2b2-bd277fb0abb4))
   (pad "38" smd rect (at 0 0) (size 4.0894 4.0894) (layers "F.Cu" "F.Mask") (tstamp b3bdc54b-bc77-4b0b-b33f-f84c3abf8b88))
+  (model "${KICAD_USER_3DMOD}/QFN37_7X7_TRI.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
