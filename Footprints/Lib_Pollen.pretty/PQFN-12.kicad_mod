@@ -55,9 +55,9 @@
     (thermal_bridge_angle 45) (tstamp e25a84cb-70e0-4b98-a5af-5b21b04cdff1))
   (pad "12" smd roundrect (at 0 3.08) (size 0.42 0.79) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 18c8df74-09c3-4dbd-95ab-77b68807b43a))
-  (pad "13" smd roundrect (at -0.25 1.54) (size 2.08 1.44) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+  (pad "13" smd roundrect (at -0.25 1.46) (size 2.08 1.44) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 29e81712-ca23-4145-b001-89ddacd35b6e))
-  (pad "14" smd roundrect (at -2.95 1.54) (size 2.08 1.44) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+  (pad "14" smd roundrect (at -2.95 1.46) (size 2.08 1.44) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp cc08b8a6-fd7b-4fe6-85a7-54b45e63bd79))
   (model "${KICAD_USER_3DMOD}/PQFN-12.step"
     (offset (xyz 0.9 0.1 0))
