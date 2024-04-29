@@ -12,3 +12,9 @@
 
 ![User Paths](./Docs/img/user_paths.png)
 
+## User Symbols path
+Lib_Pollen --- ${KICAD_USER_LIB}/Symbols/Library_Pollen.kicad_sym
+
+## User Footprints path
+Lib_Pollen --- ${KICAD_USER_LIB}/Footprints/Lib_Pollen.pretty
+
