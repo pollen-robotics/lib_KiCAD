@@ -13,6 +13,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e2600473-797f-457a-ae63-fbe20876d42f)
   )
+  (fp_poly
+    (pts
+      (xy -0.4 -0.1)
+      (xy 0.4 -0.1)
+      (xy 0.4 0.1)
+      (xy -0.4 0.1)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Mask") (tstamp f55ecd94-2671-478c-af5f-7e161f782485))
   (pad "1" smd custom (at 0 0) (size 0.8 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor rect))

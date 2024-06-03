@@ -2129,7 +2129,7 @@
     (property "Value" "LAN9252" (at 5.08 -106.68 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "" (at 66.675 -106.68 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm" (at 66.675 -106.68 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 66.04 -30.48 0)

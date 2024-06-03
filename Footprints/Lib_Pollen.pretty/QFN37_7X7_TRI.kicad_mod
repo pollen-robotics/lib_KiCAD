@@ -2,17 +2,13 @@
   (layer "F.Cu")
   (tags "TMC6100-LA ")
   (attr smd)
-  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at -7 -2.8 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f62e67d3-5451-4f4b-a77c-66c017a2377c)
   )
-  (fp_text value "QFN37_7X7_TRI" (at 0 0 unlocked) (layer "F.Fab")
+  (fp_text value "QFN37_7X7_TRI" (at 0.1 2.6 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 482c8b91-8e3a-440b-b096-c0adb376d38b)
-  )
-  (fp_text user "*" (at -4.4402 -2.75) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6bd75c79-f414-4d98-8950-b455c54b8cba)
   )
   (fp_text user "*" (at -4.4402 -2.75 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -22,7 +18,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 193aa60d-7819-4646-9836-d16cb092372d)
   )
-  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 -2.5 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 69a839b4-4bdf-4314-b203-165c2fe6ef43)
   )
@@ -127,42 +123,6 @@
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 52ff198a-f359-4858-9566-554178380303))
   (fp_line (start 3.6322 3.6322) (end 3.6322 2.95974)
     (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 9fbb8314-308f-4720-8bb7-84472e4c1170))
-  (fp_poly
-    (pts
-      (xy -4.313199 1.809501)
-      (xy -4.313199 2.190501)
-      (xy -4.059199 2.190501)
-      (xy -4.059199 1.809501)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 0a647463-289d-4a40-8249-3fd8a36af577))
-  (fp_poly
-    (pts
-      (xy -0.690499 -4.059199)
-      (xy -0.690499 -4.313199)
-      (xy -0.309499 -4.313199)
-      (xy -0.309499 -4.059199)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 61eb9616-56e4-48e8-8964-91588116ccdd))
-  (fp_poly
-    (pts
-      (xy 1.3095 4.059199)
-      (xy 1.3095 4.313199)
-      (xy 1.6905 4.313199)
-      (xy 1.6905 4.059199)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f997524e-7830-483c-a108-a880242ff396))
-  (fp_poly
-    (pts
-      (xy 4.313199 -1.190501)
-      (xy 4.313199 -0.809501)
-      (xy 4.059199 -0.809501)
-      (xy 4.059199 -1.190501)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp d35dd8b5-be84-4c8b-9cc8-61623ae649e0))
   (fp_line (start -4.0592 -2.856) (end -3.7592 -2.856)
     (stroke (width 0.1524) (type solid)) (layer "F.CrtYd") (tstamp 8db6f748-98af-4dd9-a407-b01279643b2c))
   (fp_line (start -4.0592 2.856) (end -4.0592 -2.856)
