@@ -9,6 +9,10 @@
       (effects (font (size 0.64 0.64) (thickness 0.15)))
     (tstamp d8c1f89f-513d-42ef-9c91-f95df1fda6a4)
   )
+  (fp_text user "°" (at -2.9 0 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)) (justify left bottom))
+    (tstamp 6c2d5c7c-93be-4efb-8579-9c4211b74c87)
+  )
   (fp_poly
     (pts
       (xy -0.245 -0.724)
@@ -66,8 +70,6 @@
     (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 787323c5-2f75-4acd-9e5d-97e675fea5ea))
   (fp_line (start 1.65 1.65) (end 1.65 1.4635)
     (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp aa09ca22-cd2e-4ee5-ad2c-58933a6250e1))
-  (fp_circle (center -2.5 -0.975) (end -2.4 -0.975)
-    (stroke (width 0.2) (type solid)) (fill none) (layer "F.SilkS") (tstamp 218f6808-247b-45c1-b839-20af91fda95d))
   (fp_poly
     (pts
       (xy -2 0.755)
@@ -131,8 +133,6 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp 0edd0d22-15a7-4c86-aac3-afe167cba38f))
   (fp_line (start 1.65 1.65) (end 1.65 -1.65)
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp c3e0efd9-72b4-4310-a43e-5f93af28bc39))
-  (fp_circle (center -2.5 -0.975) (end -2.4 -0.975)
-    (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp cbb11a4e-239f-4538-bcef-a624551764ee))
   (pad "1" smd custom (at -1.2 -0.325) (size 0.505 1.64) (layers "F.Cu" "F.Paste")
     (options (clearance outline) (anchor rect))
     (primitives
