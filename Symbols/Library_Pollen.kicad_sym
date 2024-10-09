@@ -2415,7 +2415,7 @@
     (property "Value" "LTC4331CUFD-PBF" (at 16.51 3.81 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Package_DFN_QFN:QFN-20-1EP_4x5mm_P0.5mm_EP2.65x3.65mm" (at 19.05 -46.99 0)
+    (property "Footprint" "Library_Pollen:LPQFN20_ADI" (at 19.05 -46.99 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "LTC4331CUFD-PBF" (at 19.05 -44.45 0)
