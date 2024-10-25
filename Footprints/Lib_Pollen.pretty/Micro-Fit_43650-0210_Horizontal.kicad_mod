@@ -95,8 +95,8 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp cb721686-5255-4788-a3b0-ce4312e32eb7))
   (pad "1" smd rect (at -1.5 5.12) (size 1.27 2.92) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7a74c4b1-6243-4a12-85a2-bc41d346e7aa))
   (pad "2" smd rect (at 1.5 5.12) (size 1.27 2.92) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ed8a7f02-cf05-41d0-97b4-4388ef205e73))
-  (pad "MP" thru_hole circle (at -3.65 -0.35) (size 2.84 2.84) (drill 2.54) (layers "*.Cu" "*.Mask") (tstamp 7d76d925-f900-42af-a03f-bb32d2381b09))
-  (pad "MP" thru_hole circle (at 3.65 -0.35) (size 2.84 2.84) (drill 2.54) (layers "*.Cu" "*.Mask") (tstamp f1e619ac-5067-41df-8384-776ec70a6093))
+  (pad "MP" thru_hole circle (at -3.65 -0.35) (size 3 3) (drill 2.54) (layers "*.Cu" "*.Mask") (tstamp 7d76d925-f900-42af-a03f-bb32d2381b09))
+  (pad "MP" thru_hole circle (at 3.65 -0.35) (size 3 3) (drill 2.54) (layers "*.Cu" "*.Mask") (tstamp f1e619ac-5067-41df-8384-776ec70a6093))
   (model "${KICAD_USER_3DMOD}/43650-0210.stp"
     (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
