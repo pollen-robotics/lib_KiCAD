@@ -6721,7 +6721,7 @@
       fff5200b-7f44-468d-baf6-de5168f1e117
     )
   )
-  (model "${KICAD_USER_3DMOD}/Sensata_D06D100.step"
+  (model "${KICAD_USER_3DMOD}/Sensata_D06D100_light.step"
     (offset (xyz -3 -16.5 13))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
