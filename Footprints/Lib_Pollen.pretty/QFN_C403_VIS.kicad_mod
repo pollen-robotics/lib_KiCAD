@@ -1920,4 +1920,15 @@
 		(uuid "5c77ca75-0b01-47c1-8b16-32a3c58ff520")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_USER_3DMOD}/Vishay_SiC402_PowerPAK MLP55-32L.step"
+		(offset
+			(xyz 3.25 -1.95 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
 )
