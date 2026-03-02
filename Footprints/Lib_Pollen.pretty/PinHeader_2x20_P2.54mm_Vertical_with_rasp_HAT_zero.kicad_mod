@@ -164,7 +164,7 @@
 	)
 	(fp_line
 		(start 0.0038 32.499996)
-		(end 23.025 32.475)
+		(end 23 32.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -183,7 +183,7 @@
 		(uuid "29e64c31-adc9-4ec6-a809-d00d334810c5")
 	)
 	(fp_line
-		(start 26.525 28.975)
+		(start 26.5 29)
 		(end 26.499999 -29)
 		(stroke
 			(width 0.1)
@@ -226,9 +226,9 @@
 		(uuid "f2c2bae7-4e7c-4bd1-9bed-261f508cd766")
 	)
 	(fp_arc
-		(start 26.525 28.975)
-		(mid 25.499874 31.449874)
-		(end 23.025 32.475)
+		(start 26.5 29)
+		(mid 25.474874 31.474874)
+		(end 23 32.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -270,8 +270,8 @@
 		(uuid "e80f22ad-693d-49af-bd95-53ddc768242b")
 	)
 	(fp_circle
-		(center 23.025 28.975)
-		(end 24.225 28.975)
+		(center 23 29)
+		(end 24.2 29)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -684,6 +684,42 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9c233251-1c5b-4efb-a42b-b321dc84c24c")
+	)
+	(pad "MP" thru_hole circle
+		(at 0 -29)
+		(size 4.5 4.5)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "47e543d8-36c6-4b8f-8cb7-70df776edb33")
+	)
+	(pad "MP" thru_hole circle
+		(at 0 29)
+		(size 4.5 4.5)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "730e1fda-f34d-4322-abc4-bd1bba8db8b3")
+	)
+	(pad "MP" thru_hole circle
+		(at 23 -29)
+		(size 4.5 4.5)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "7fd66b8d-aaf2-44e4-b706-020600d48a46")
+	)
+	(pad "MP" thru_hole circle
+		(at 23 29)
+		(size 4.5 4.5)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "892098ce-53e3-48af-b9c3-fd35a17d1736")
 	)
 	(embedded_fonts no)
 	(model "${KICAD_USER_3DMOD}/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step"
