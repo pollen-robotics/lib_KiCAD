@@ -235,7 +235,7 @@
 		(uuid "5bb86856-ab14-45b5-b735-621e5d77e77f")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_3DMOD}/Wago_2059-302_998-403.stp"
+	(model "${KICAD_USER_LIB}/LCSC_parts/easyeda2kicad.3dshapes/Wago_2059-302_998-403.stp"
 		(offset
 			(xyz 3 -3.5 0)
 		)
