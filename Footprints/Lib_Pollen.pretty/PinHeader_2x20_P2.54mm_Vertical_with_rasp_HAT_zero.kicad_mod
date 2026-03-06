@@ -724,13 +724,24 @@
 	(embedded_fonts no)
 	(model "${KICAD_USER_3DMOD}/rasp_pi_zero_2_W_with_40_pin_male_connector v4.step"
 		(offset
-			(xyz 11.5 0 -9)
+			(xyz 11.5 0 -13.45)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -90 -0 -90)
+		)
+	)
+	(model "${KICAD_USER_LIB}/LCSC_parts/easyeda2kicad.3dshapes/HDR-TH_40P-P2.54-F-LI-2X20P.step"
+		(offset
+			(xyz 0 0 -1.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 90)
 		)
 	)
 )
