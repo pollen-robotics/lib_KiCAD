@@ -8823,7 +8823,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 0 0)
 				(length 2.54)
 				(name "Vdd"
@@ -8859,7 +8859,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 -20.32 0)
 				(length 2.54)
 				(name "Vss"
@@ -15430,7 +15430,7 @@
 		(symbol "MP2338_0_1"
 			(rectangle
 				(start 2.54 2.54)
-				(end 15.24 -19.05)
+				(end 15.24 -22.86)
 				(stroke
 					(width 0)
 					(type default)
@@ -15496,7 +15496,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 0)
+				(at 0 -20.32 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -15549,26 +15549,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 17.78 -12.7 180)
-				(length 2.54)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin open_collector line
-				(at 17.78 -15.24 180)
+				(at 17.78 -10.16 180)
 				(length 2.54)
 				(name "PG"
 					(effects
@@ -15578,6 +15560,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -17.78 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23624,7 +23624,7 @@
 				)
 			)
 			(pin input clock
-				(at 0 -25.4 0)
+				(at 0 -22.86 0)
 				(length 5.08)
 				(name "MCLK"
 					(effects
@@ -29159,6 +29159,122 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "pogo-pin"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 1.016 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pogo-pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pogo-pin"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Pogo, spring, connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "pogo-pin_0_1"
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 2.54 -1.524) (xy 10.16 -1.524) (xy 10.16 1.27) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 10.16 1.016)
+				(mid 10.6334 -0.127)
+				(end 10.16 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0.762) (xy 9.144 -1.016) (xy 8.128 0.762) (xy 7.112 -1.016) (xy 6.096 0.762) (xy 5.08 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "pogo-pin_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
