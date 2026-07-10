@@ -12222,7 +12222,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
-			(at 0 2.794 0)
+			(at 0 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12230,7 +12230,7 @@
 			)
 		)
 		(property "Value" "Jumper_2"
-			(at 0 -3.556 0)
+			(at 0 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
