@@ -110,7 +110,7 @@
 		(uuid "661b4f41-e001-44eb-848a-53a2c652ad50")
 	)
 	(fp_line
-		(start 0 27.5)
+		(start -0.5 27.5)
 		(end -24.999999 27.5)
 		(stroke
 			(width 0.3)
@@ -118,6 +118,16 @@
 		)
 		(layer "F.Cu")
 		(uuid "1accfdf1-1139-4549-a2c8-c00612a4f43c")
+	)
+	(fp_line
+		(start -0.1 27.6)
+		(end -0.5 27.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "0feaff7f-8906-44e0-9548-02c1d70d9585")
 	)
 	(fp_line
 		(start 0.248528 26.899999)
@@ -141,7 +151,7 @@
 	)
 	(fp_line
 		(start 0.745584 25.699999)
-		(end 0 25.699999)
+		(end 0 25.6)
 		(stroke
 			(width 0.3)
 			(type default)
