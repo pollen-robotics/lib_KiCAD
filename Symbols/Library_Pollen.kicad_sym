@@ -6045,7 +6045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module"
+		(property "Footprint" "Library_Pollen:Raspberry-Pi-4-Compute-Module"
 			(at 142.24 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7682,7 +7682,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -33.02 -50.8 0)
 				(length 2.54)
 				(name "+3.3v_(Output)"
@@ -7736,7 +7736,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 27.94 -55.88 180)
 				(length 2.54)
 				(name "WiFi_nDisable"
@@ -7754,7 +7754,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -33.02 -55.88 0)
 				(length 2.54)
 				(name "+1.8v_(Output)"
@@ -7772,7 +7772,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 27.94 -58.42 180)
 				(length 2.54)
 				(name "BT_nDisable"
